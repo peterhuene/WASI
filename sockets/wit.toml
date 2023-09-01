@@ -1,0 +1,14 @@
+version = "0.2.0-rc+20230901"
+authors = ["Peter Huene <peter@huene.dev>"]
+categories = ["wasm", "wasi", "component-model"]
+description = "The WIT package for WASI sockets."
+license = "Apache-2.0"
+homepage = "https://github.com/webAssembly/wasi-sockets"
+repository = "https://github.com/webAssembly/wasi-sockets"
+
+[dependencies]
+"wasi:io" = "0.2.0-rc"
+"wasi:poll" = "0.2.0-rc"
+
+[registries]
+default = "https://preview-registry.bytecodealliance.org/"

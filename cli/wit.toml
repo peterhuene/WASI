@@ -1,0 +1,20 @@
+version = "0.2.0-rc+20230901"
+authors = ["Peter Huene <peter@huene.dev>"]
+categories = ["wasm", "wasi", "component-model"]
+description = "The WIT package for WASI CLI."
+license = "Apache-2.0"
+homepage = "https://github.com/webAssembly/wasi-cli"
+repository = "https://github.com/webAssembly/wasi-cli"
+
+[dependencies]
+"wasi:random" = "0.2.0-rc"
+"wasi:sockets" = "0.2.0-rc"
+"wasi:clocks" = "0.2.0-rc"
+"wasi:filesystem" = "0.2.0-rc"
+
+# TODO: remove this in the future
+# https://github.com/bytecodealliance/wasm-tools/issues/1191
+"wasi:io" = "0.2.0-rc"
+
+[registries]
+default = "https://preview-registry.bytecodealliance.org/"

@@ -1,0 +1,15 @@
+version = "0.2.0-rc2+20230901"
+authors = ["Peter Huene <peter@huene.dev>"]
+categories = ["wasm", "wasi", "component-model"]
+description = "The WIT package for WASI HTTP."
+license = "Apache-2.0"
+homepage = "https://github.com/webAssembly/wasi-http"
+repository = "https://github.com/webAssembly/wasi-http"
+
+[dependencies]
+"wasi:clocks" = "0.2.0-rc"
+"wasi:cli" = "0.2.0-rc"
+"wasi:random" = "0.2.0-rc"
+
+[registries]
+default = "https://preview-registry.bytecodealliance.org/"

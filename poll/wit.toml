@@ -1,0 +1,12 @@
+version = "0.2.0-rc+20230901"
+authors = ["Peter Huene <peter@huene.dev>"]
+categories = ["wasm", "wasi", "component-model"]
+description = "The WIT package for WASI poll."
+license = "Apache-2.0"
+homepage = "https://github.com/webAssembly/wasi-poll"
+repository = "https://github.com/webAssembly/wasi-poll"
+
+[dependencies]
+
+[registries]
+default = "https://preview-registry.bytecodealliance.org/"
