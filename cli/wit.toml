@@ -1,4 +1,4 @@
-version = "0.2.0-rc+20230901"
+version = "0.2.0-rc2+20230901"
 authors = ["Peter Huene <peter@huene.dev>"]
 categories = ["wasm", "wasi", "component-model"]
 description = "The WIT package for WASI CLI."
